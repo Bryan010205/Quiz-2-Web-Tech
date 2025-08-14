@@ -95,6 +95,17 @@ body {
   margin-top: 0.5rem;
 }
 
+.hero-flex {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:2rem;
+}
+
+.hero-section .features-image {
+  margin-top: 3rem;
+}
+
 .cta-button {
   margin-top: 1rem;
   display: inline-block;
@@ -120,6 +131,12 @@ body {
   border-top: 1px solid #000;
 }
 
+.features-section h2 {
+  font-size: 4rem;
+  color: var(--blue);
+  font-weight: var(--bold);
+}
+
 .features-list {
   list-style: none;
   padding-left: 1rem;
@@ -129,6 +146,7 @@ body {
   margin-bottom: 1.5rem;
   padding-left: 1rem;
   position: relative;
+  font-size: 1.2rem;
 }
 
 .features-list li::before {
